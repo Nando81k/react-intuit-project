@@ -23,6 +23,11 @@
   align-items: center;
 }
 
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
 .nav-links {
   list-style: none;
   display: flex;
@@ -46,7 +51,6 @@
 .nav-links a:hover {
   color: #50b6ff;
 }
-
 
 .logo {
   font-size: 1.5rem;
