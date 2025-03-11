@@ -12,7 +12,9 @@ const Header = () => {
   return (
     <header className="header">
       <nav className="navbar">
-        <div className="logo">Into Intuit</div>
+        <div className="logo">
+          <a href="#home" className='logo-link'>Into Intuit</a>
+        </div>
         <div className={`hamburger ${isOpen ? 'open' : ''}`} onClick={toggleMenu}>
           <div className="bar"></div>
           <div className="bar"></div>
