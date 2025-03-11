@@ -59,7 +59,12 @@
   width: 80%;
   height: auto;
 }
-
+@media (max-width: 600px) {
+  .image-content img {
+    width: 40%;
+    height: auto;
+  }
+}
 @media (max-width: 972px) {
   .company-background-content {
     flex-direction: column;
@@ -76,7 +81,7 @@
   }
 
   .image-content img {
-    width: 100%;
-    height: 100%;
+    width: 50%;
+    height: 50%;
   }
 }

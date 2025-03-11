@@ -32,8 +32,11 @@
 }
 
 .image-content img {
-  width: fit-content;
-  height: fit-content;
+  width: 80%;
+  height: auto;
+  display: flex;
+  /* Move the image to be centered */
+  margin: 0 auto;
   border-radius: 4px;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
@@ -60,6 +63,8 @@
   font-size: 0.9rem;
   color: #666;
   font-style: italic;
+  /* Move caption to center */
+  text-align: center;
 }
 
 /* Media queries for mobile devices */

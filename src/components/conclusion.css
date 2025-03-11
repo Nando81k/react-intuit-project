@@ -25,7 +25,8 @@
 
 /* Subsection styling */
 .subsection {
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
+  list-style-position: inside;
 }
 
 .subsection h3 {
