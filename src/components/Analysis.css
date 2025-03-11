@@ -1,9 +1,9 @@
-.analysis {
+.analysis-background {
   padding: 4rem 2rem;
   background-color: #f9f9f9;
 }
 
-.analysis h2 {
+.analysis-background h2 {
   text-align: center;
   margin-bottom: 2rem;
   font-size: 2rem;
@@ -24,16 +24,16 @@
 }
 
 /* Right side - image content */
-.graph-content {
+.image-content {
   flex: 1;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.graph-content img {
-  width: 1000px;
-  height: 650px;
+.image-content img {
+  width: fit-content;
+  height: fit-content;
   border-radius: 4px;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
@@ -55,9 +55,31 @@
   color: #666;
 }
 
-.graph-with-caption figcaption {
+.image-with-caption figcaption {
   margin-top: 0.5rem;
   font-size: 0.9rem;
   color: #666;
   font-style: italic;
+}
+
+/* Media queries for mobile devices */
+@media (max-width: 972px) {
+  .analysis-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .text-content {
+    padding-right: 0;
+    text-align: center;
+  }
+
+  .graph-content {
+    margin-top: 2rem;
+    max-width: 800px;
+  }
+
+  .graph-content h2 {
+    display: none;
+  }
 }

@@ -8,25 +8,9 @@
 
 .hero-content {
   text-align: center;
-  color: #eefdff;
-  text-shadow: #000000 2px 2px;
+  color: #007BFF;
+  text-shadow: #000000 2px 3px;
   font-weight: 700;
-}
-
-.cta-button {
-  background-color: #223d5a;
-  color: #fff;
-  border: none;
-  padding: 1rem 2rem;
-  margin-top: 1rem;
-  font-size: 1rem;
-  cursor: pointer;
-  border-radius: 4px;
-  transition: background-color 0.3s ease;
-}
-
-.cta-button:hover {
-  background-color: #0056b3;
 }
 
 .hero-content h1 {
@@ -35,6 +19,100 @@
 }
 
 .hero-content p {
-  font-size: 1.5rem;
+  font-size: 2rem;
   margin-bottom: 1rem;
+}
+
+/* Modal overlay */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+/* Modal container */
+.modal-content {
+  background: rgb(0, 0, 0);
+  padding: 20px;
+  border-radius: 10px;
+  position: relative;
+  width: 40%;
+  max-width: 400px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+/* Modal title */
+.modal-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Audio player */
+.audio-player {
+  width: 100%;
+  margin-top: 10px;
+  position: center;
+  color: #50b6ff;
+}
+
+/*audio text*/
+.audio-text {
+  color: #007BFF;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 972px) {
+  .hero {
+    height: 70vh;
+  }
+
+  .hero-content h1 {
+    font-size: 2rem;
+  }
+
+  .hero-content p {
+    font-size: 1.5rem;
+  }
+
+  .modal-content {
+    width: 80%;
+    max-width: 300px;
+  }
+
+  .audio-text {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 972px) {
+  .hero {
+    height: 60vh;
+  }
+
+  .hero-content h1 {
+    font-size: 1.5rem;
+  }
+
+  .hero-content p {
+    font-size: 1.2rem;
+  }
+
+  .modal-content {
+    width: 90%;
+    max-width: 250px;
+  }
+
+  .audio-text {
+    font-size: 1rem;
+  }
 }

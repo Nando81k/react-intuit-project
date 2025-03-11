@@ -1,14 +1,23 @@
 import React from 'react';
 import './Home.css';
+import audioUrl from '../assets/GMT20250307-210107_Recording.mp4'; // adjust the file name/path as needed
 
-const Home = () => (
-  <section id="home" className="hero">
-    <div className="hero-content">
-      <h1>Life At Intuit</h1>
-      <p>Explore What It's Like Working Here</p>
-      <button className="cta-button">Watch Interview</button>
-    </div>
-  </section>
-);
+const Home = () => {
+
+    return (
+        <section id="home" className="hero">
+            <div className="hero-content">
+                <h1>Explore What It's Like Working Here</h1>
+                <div className="audio-container">
+                    <span className="audio-text">Play Interview Audio:</span>
+                    <audio controls className="audio-player">
+                        <source src={audioUrl} type="audio/mp3" />
+                        Your browser does not support the audio element.
+                    </audio>
+                </div>
+            </div>
+        </section>
+    );
+};
 
 export default Home;

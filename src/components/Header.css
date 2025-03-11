@@ -31,8 +31,9 @@
 }
 
 .nav-links a:hover {
-  color: #007BFF;
+  color: #50b6ff;
 }
+
 
 .logo {
   font-size: 1.5rem;
@@ -41,3 +42,8 @@
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
 }
+
+.logo:hover {
+  color: #50b6ff;
+}
+

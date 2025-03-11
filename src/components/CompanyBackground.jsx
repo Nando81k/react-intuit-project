@@ -10,10 +10,10 @@ const CompanyBackground = () => (
         <div className="subsection">
           <h3>History and Background</h3>
           <p>
-            Intuit was founded in 1983 in Palo Alto, California with the goal of
-            making balancing checkbooks easier. Over the years, it has moved
+            Intuit was founded in 1983 on a dining room table in Palo Alto, California with the goal of
+            making balancing checkbooks easier. The first Intuit product was a software called Quicken. The purpose of Quicken was to help the founder of Intuits' wife balance the family checkbook. Over the years, it has moved
             away from Desktop apps and software like Quicken to cloud based
-            solutions like QuickBooks and TurboTax.
+            solutions like QuickBooks and TurboTax. Intuit has since expanded its product offerings to include a range of financial tools and services for individuals and businesses, including accounting software, tax preparation software, and personal finance management tools. The company has grown to become a leader in the financial technology industry, serving millions of customers worldwide. Intuit's commitment to innovation and customer satisfaction has helped it establish a strong brand presence and drive growth in the industry.
           </p>
         </div>
         <div className="subsection">
@@ -43,7 +43,7 @@ const CompanyBackground = () => (
         <figure className="image-with-caption">
           <img src={backgroundImage} alt="Company background" />
           <figcaption>
-            All 4 Intuit Verticals Currently Being Supported By Intuit
+            All 4 of Intuit Verticals Currently Being Supported
           </figcaption>
         </figure>
       </div>
