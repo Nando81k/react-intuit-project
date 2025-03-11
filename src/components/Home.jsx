@@ -7,7 +7,7 @@ const Home = () => {
     return (
         <section id="home" className="hero">
             <div className="hero-content">
-                <h1>Explore What It's Like Working Here</h1>
+                <h1>Delving Into Intuit</h1>
                 <div className="audio-container">
                     <span className="audio-text">Play Interview Audio:</span>
                     <audio controls className="audio-player">
